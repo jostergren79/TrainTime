@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background: darkgrey;
+}
+
+.jumbo-tron {
+    background: #000;
+    width: 980px;
+    height: 150px;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    padding: 5px 0 0 0;
+}
+
+#title {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+#sub-title {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.schedule-tron {
+    background: #fff;
+    width: 980px;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+
+.add-tron {
+    background: #fff;
+    width: 980px;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: 3px solid #000;
+    font-weight: bold;
+}
+
+.tron-topper {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 7px 7px 0 0;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    margin: 10px 15px;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    font-weight: bold;
+    max-width: 940px
+}
+
+input {
+    width: 960px;
+    font-size: 18px;
+    margin: 5px 8px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+a {
+    margin: 10px;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    background: #000;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+button:active {
+    transform: translateY(3px);
+    filter: saturate(150px)
+}
